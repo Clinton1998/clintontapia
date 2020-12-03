@@ -7,7 +7,7 @@
         </div>
         <div class="col-md-6 col-lg-7 project-card__info">
           <h3 class="project-card__title">{{ project.title }}</h3>
-          <p class="project-card__description">{{ project.description }}</p>
+          <p class="project-card__description" v-html="project.short_description"></p>
           <p class="project-card__stack">Stack usado:</p>
           <ul class="tags">
             <li v-for="stack in project.stacks" v-bind:key="stack.id">{{ stack.name }}</li>

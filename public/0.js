@@ -269,18 +269,6 @@ var render = function() {
                     [
                       _c(
                         "inertia-link",
-                        { attrs: { href: _vm.$route("page.testimonials") } },
-                        [_vm._v("Testimonios")]
-                      )
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    [
-                      _c(
-                        "inertia-link",
                         { attrs: { href: _vm.$route("page.contact") } },
                         [_vm._v("Contacto")]
                       )
@@ -401,21 +389,6 @@ var render = function() {
                     on: { click: _vm.closeMobileMenu }
                   },
                   [_vm._v("Portafolio")]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "li",
-              [
-                _c(
-                  "inertia-link",
-                  {
-                    attrs: { href: _vm.$route("page.testimonials") },
-                    on: { click: _vm.closeMobileMenu }
-                  },
-                  [_vm._v("Testimonios")]
                 )
               ],
               1

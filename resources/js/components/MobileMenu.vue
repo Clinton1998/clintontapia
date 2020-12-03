@@ -9,7 +9,7 @@
           <li><inertia-link v-bind:href="$route('page.hello')" v-on:click="closeMobileMenu">Hola</inertia-link></li>
           <li><inertia-link v-bind:href="$route('page.resume')" v-on:click="closeMobileMenu">Currículum</inertia-link></li>
           <li><inertia-link v-bind:href="$route('page.portfolio')" v-on:click="closeMobileMenu">Portafolio</inertia-link></li>
-          <li><inertia-link v-bind:href="$route('page.testimonials')" v-on:click="closeMobileMenu">Testimonios</inertia-link></li>
+          <!--<li><inertia-link v-bind:href="$route('page.testimonials')" v-on:click="closeMobileMenu">Testimonios</inertia-link></li>-->
           <li><inertia-link v-bind:href="$route('page.contact')" v-on:click="closeMobileMenu">Contacto</inertia-link></li>
         </ul>
       </nav>

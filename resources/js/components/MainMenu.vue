@@ -8,7 +8,7 @@
               <li><inertia-link v-bind:href="$route('page.hello')">Hola</inertia-link></li>
               <li><inertia-link v-bind:href="$route('page.resume')">Currículum</inertia-link></li>
               <li><inertia-link v-bind:href="$route('page.portfolio')">Portafolio</inertia-link></li>
-              <li><inertia-link v-bind:href="$route('page.testimonials')">Testimonios</inertia-link></li>
+              <!--<li><inertia-link v-bind:href="$route('page.testimonials')">Testimonios</inertia-link></li>-->
               <li><inertia-link v-bind:href="$route('page.contact')">Contacto</inertia-link></li>
             </ul>
           </nav>

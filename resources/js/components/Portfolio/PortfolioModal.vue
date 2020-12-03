@@ -9,8 +9,9 @@
       </div>
       <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
         <p class="portfolio-modal__title">{{ project.title }}</p>
-        <img class="portfolio-modal__img" v-bind:src="project.url_image" alt="modal_img">
-        <p class="portfolio-modal__description">{{ project.description }}</p>
+        <a v-bind:href="project.url_image" target="_blank">
+        <img class="portfolio-modal__img" v-bind:src="project.url_image" alt="modal_img"></a>
+        <p class="portfolio-modal__description" v-html="project.description"></p>
         <div class="portfolio-modal__link">
           <a v-bind:href="project.url" target="_blank">{{ project.url }}</a>
         </div>

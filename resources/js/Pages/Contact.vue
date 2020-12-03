@@ -42,9 +42,6 @@
               <button class="site-btn site-btn--form" type="submit" value="Enviar">Enviar</button>
             </form>
           </div>
-          <div class="footer">
-            <p>© 2016 Ivan Susanin. All Rights Reserved</p>
-          </div>
         </div>
       </div>
     </div>

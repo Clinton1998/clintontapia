@@ -16,9 +16,15 @@ class PortfolioController extends Controller
     		return $category;
     	});
     	$professional = Professional::firstOrFail();
+        $projects = $professional->projects->load('stacks');
+
+        $projects = $projects->map(function($project){
+            $project->short_description = substr($project->description, 0,104);
+            return $project;
+        });
         return Inertia::render('Portfolio',[
         	'categories' => $categories,
-        	'projects' => $professional->projects->load('stacks')
+        	'projects' => $projects
         ]);
     }
 }

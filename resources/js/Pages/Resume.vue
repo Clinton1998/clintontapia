@@ -4,8 +4,7 @@
                 <div class="col-md-10">
                     <h2 id="resume_header" class="section__title">Currículum_</h2>
                     <p class="section__description">
-                    Lorem ipsum dolor sit amet, <i><b>communication</b></i> adipisicing elit, <i><b>helpful</b></i> eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+                        Tengo capacidad de <i><b>aprender</b></i> nuevas tecnologías. Soy <i><b>autodidacta</b></i> pues me gusta crear proyectos en mis tiempos libres. Disfruto mucho <i><b>probando</b></i> nuevas tecnologías y exprimiendo las últimas hasta sus límites.
                     </p>
                 </div>
             </div>

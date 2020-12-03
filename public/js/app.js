@@ -15023,42 +15023,42 @@ var map = {
 	"./Contact": [
 		"./resources/js/Pages/Contact.vue",
 		0,
-		4
+		3
 	],
 	"./Contact.vue": [
 		"./resources/js/Pages/Contact.vue",
 		0,
-		4
+		3
 	],
 	"./Hello": [
 		"./resources/js/Pages/Hello.vue",
 		0,
-		3
+		2
 	],
 	"./Hello.vue": [
 		"./resources/js/Pages/Hello.vue",
 		0,
-		3
+		2
 	],
 	"./Portfolio": [
 		"./resources/js/Pages/Portfolio.vue",
 		0,
-		2
+		1
 	],
 	"./Portfolio.vue": [
 		"./resources/js/Pages/Portfolio.vue",
 		0,
-		2
+		1
 	],
 	"./Resume": [
 		"./resources/js/Pages/Resume.vue",
 		0,
-		1
+		4
 	],
 	"./Resume.vue": [
 		"./resources/js/Pages/Resume.vue",
 		0,
-		1
+		4
 	],
 	"./Testimonials": [
 		"./resources/js/Pages/Testimonials.vue",
