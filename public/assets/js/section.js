@@ -34,14 +34,3 @@ var animateHeaders = function(headers) {
         return waypoint;
     }).reduce(Object.assign, {});
 };
-
-//All ids of titles should be written here to animation work
-/*var animatedHeaders = animateHeaders({
-    "#hello_header": '90%',
-    "#resume_header": '70%',
-    "#portfolio_header": '70%',
-    "#testimonials_header": '70%',
-    "#blog_header": '70%',
-    "#contacts_header": '70%',
-    "#other_posts": '70%'
-});*/

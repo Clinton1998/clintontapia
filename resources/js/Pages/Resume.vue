@@ -50,6 +50,7 @@
                 },
                 offset: '50%'
             });
+            $('meta[property="og:url"]').attr('content',this.$route('page.resume'));
         },
         components: {
             Education,

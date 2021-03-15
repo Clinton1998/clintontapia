@@ -47,6 +47,7 @@ export default {
         animateHeaders({
             "#portfolio_header": '90%',
         });
+        $('meta[property="og:url"]').attr('content',this.$route('page.portfolio'));
     },
     methods: {
       getAllProjects(){

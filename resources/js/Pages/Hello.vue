@@ -36,6 +36,7 @@
             shadow: false,
             buttonAnimation: true
           })
+          $('meta[property="og:url"]').attr('content',this.$route('page.hello'));
         },
         components: {
             HeaderHello
