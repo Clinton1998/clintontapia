@@ -52,7 +52,9 @@ __webpack_require__.r(__webpack_exports__);
       shadow: false,
       buttonAnimation: true
     });
-    $('meta[property="og:url"]').attr('content', this.$route('page.hello'));
+    var url = this.$route('page.hello');
+    $('meta[property="og:url"]').attr('content', url);
+    $('link[rel="canonical"]').attr('href', url);
   },
   components: {
     HeaderHello: _components_Hello_HeaderHello_vue__WEBPACK_IMPORTED_MODULE_1__["default"]

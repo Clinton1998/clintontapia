@@ -66,7 +66,9 @@ __webpack_require__.r(__webpack_exports__);
     animateHeaders({
       "#portfolio_header": '90%'
     });
-    $('meta[property="og:url"]').attr('content', this.$route('page.portfolio'));
+    var url = this.$route('page.portfolio');
+    $('meta[property="og:url"]').attr('content', url);
+    $('link[rel="canonical"]').attr('href', url);
   },
   methods: {
     getAllProjects: function getAllProjects() {

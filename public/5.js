@@ -68,7 +68,9 @@ __webpack_require__.r(__webpack_exports__);
       pause: "hover",
       interval: 5000
     });
-    $('meta[property="og:url"]').attr('content', this.$route('page.testimonials'));
+    var url = this.$route('page.testimonials');
+    $('meta[property="og:url"]').attr('content', url);
+    $('link[rel="canonical"]').attr('href', url);
   },
   methods: {
     prev: function prev() {

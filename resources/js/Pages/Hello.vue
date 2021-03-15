@@ -36,7 +36,9 @@
             shadow: false,
             buttonAnimation: true
           })
-          $('meta[property="og:url"]').attr('content',this.$route('page.hello'));
+          let url = this.$route('page.hello');
+          $('meta[property="og:url"]').attr('content',url);
+          $('link[rel="canonical"]').attr('href',url);
         },
         components: {
             HeaderHello

@@ -72,7 +72,9 @@ __webpack_require__.r(__webpack_exports__);
       },
       offset: '50%'
     });
-    $('meta[property="og:url"]').attr('content', this.$route('page.resume'));
+    var url = this.$route('page.resume');
+    $('meta[property="og:url"]').attr('content', url);
+    $('link[rel="canonical"]').attr('href', url);
   },
   components: {
     Education: _components_Resume_Education_vue__WEBPACK_IMPORTED_MODULE_1__["default"],

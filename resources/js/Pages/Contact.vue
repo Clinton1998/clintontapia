@@ -82,7 +82,9 @@
 				shadow: false,
 				buttonAnimation: true
 			})
-      $('meta[property="og:url"]').attr('content',this.$route('page.contact'));
+      let url = this.$route('page.contact');
+      $('meta[property="og:url"]').attr('content',url);
+      $('link[rel="canonical"]').attr('href',url);
 		}
 	}
 </script>

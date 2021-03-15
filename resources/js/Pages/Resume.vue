@@ -50,7 +50,9 @@
                 },
                 offset: '50%'
             });
-            $('meta[property="og:url"]').attr('content',this.$route('page.resume'));
+            let url = this.$route('page.resume');
+            $('meta[property="og:url"]').attr('content',url);
+            $('link[rel="canonical"]').attr('href',url);
         },
         components: {
             Education,

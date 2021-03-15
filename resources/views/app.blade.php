@@ -7,9 +7,17 @@
     <meta name="google-site-verification" content="" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Programador web - Clinton Tapia</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('site.webmanifest') }}">
+    <link rel="mask-icon" href="{{ asset('safari-pinned-tab.svg') }}" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="canonical" href="{{ Request::fullUrl() }}">
     <meta name="description" content="Soy programador web, me desempeño en Backend. Uso las mejores prácticas con Laravel y Vuejs en el Stack LAMP.">
     <meta name="author" content="Clinton Tapia Lagar">
+    <meta name="keywords" content="programador web, clinton tapia, desarrollador php, programador fullstack"/>
     <meta property="og:url" content="{{ Request::fullUrl() }}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Programador web - Clinton Tapia">
