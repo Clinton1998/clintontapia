@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Clinton Tapia Lagar</title>
+    <title>Programador web - Clinton Tapia</title>
     <link rel="canonical" href="{{ Request::fullUrl() }}">
     <meta name="description" content="Soy programador web, me desempeño en Backend. Uso las mejores prácticas con Laravel y Vuejs en el Stack LAMP.">
     <meta name="author" content="Clinton Tapia Lagar">
